@@ -1,5 +1,5 @@
 {% set name = "salabim" %}
-{% set version = "25.0.9" %}
+{% set version = "25.0.9.post0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/salabim-{{ version }}.tar.gz
-  sha256: a945c8d576b3a33d19b03d0de94891003611995a1f91d18fb9e31e86202dbe1d
+  sha256: 6705b5876f058621dd67d2b3ab49e1014beda9d312b933e76606411a289c9db5
 
 build:
   noarch: python
