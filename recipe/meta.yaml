@@ -53,6 +53,7 @@ outputs:
       build:
         - pip
         - python {{ python_min }}
+        - setuptools
       run:
         - python >={{ python_min }}
         - salabim
